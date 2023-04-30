@@ -2,9 +2,9 @@
 
 // um lado nao pode ser maior que os outros dois lados.
 
-let lado1 = 6;
-let lado2 = 2;
-let lado3 = 9;
+let lado1 = 4;
+let lado2 = 4;
+let lado3 = 7;
 
 if (lado1 > lado2 + lado3 || lado2 > lado1 + lado3 || lado3 > lado1 + lado2) {
     console.log("Não é um triangulo.");
